@@ -1,0 +1,157 @@
+@import url(//fonts.googleapis.com/css?family=Nunito);
+
+.App {
+  background-color: #8ECAE6;
+  font-size: calc(10px + 2vmin);
+  color: #023047;
+  font-family: "Nunito";
+  text-decoration: none;
+
+}
+
+a {
+  text-decoration: none !important;
+  color: #023047;
+
+}
+
+
+.Header {
+  height:140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  font-size: calc(20px + 2vmin);
+  background-color: rgb(142,202,230,1);
+
+}
+
+.Headerdiv a {
+  color: #023047 !important;
+}
+
+.heart {
+  padding-bottom: 10px;
+  width:30px;
+  height:40px;
+}
+.content {
+  height: 100vh;
+  text-align: left;
+  align-items:center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.Homepage .content {
+  padding-top: 200px;
+}
+
+
+.content h1{
+  font-size: calc(60px + 2vmin);
+  font-weight: bold;
+}
+
+
+.content p{
+  font-size: calc(20px + 2vmin);
+}
+
+.Sharepage .content{
+  padding-top: 200px;
+}
+
+.Aboutpage, .Youpage, .Playlistpage {
+  height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.post {
+  padding-top: 100px;
+}
+
+.trackDiv {
+  display: inline-block;
+  width:100%
+}
+
+.trackNum {
+  color: #FFB703;
+  font-weight: bold;
+  font-size: 200px !important;
+} 
+
+.odd {
+  float:left;
+}
+
+
+.topTrackAlbum {
+  width: 151px;
+  height: 151px;
+  margin-top: 65px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.even {
+  float: right;
+}
+
+.songInfo{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+.right {
+  text-align: right;
+}
+
+.plheader {
+  text-align: center;
+  border-bottom: 2px solid currentColor;
+  /* display: inline-grid; */
+  line-height: 1.85;
+  color: #EE7E00;
+}
+
+.playlistAlbum {
+  width: 151px;
+  height: 151px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Homediv{
+  display: inline-block;
+  width:100%
+}
+.logo {
+  float: left;
+  padding-bottom: 100px;
+  padding-right: 50px;
+
+}
+
+.invalid {
+  color: #BB1D1D;
+  font-size: 24px !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
